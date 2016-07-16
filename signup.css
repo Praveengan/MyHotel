@@ -1,0 +1,300 @@
+body 
+{
+  background-image: url(images/back.jpg);
+}
+/* {
+  font-family: sans-serif;;
+  font-size: 15px;
+  background-color: #fff;
+    margin: 0px 0 20px;
+    word-spacing:10px;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+
+}
+p:hover
+{
+  background-color:#e6e6ff;
+}*/
+h1
+{margin-top: 5px;
+ text-align: center;
+ text-decoration: none;
+}
+div.img 
+{ margin-top: 55px;
+  border: 5px solid black;
+}
+div.transbox {
+  height: 80px;
+  margin:0px;
+  background-color: white;
+  border: 5px solid black;
+  opacity: 0.8;
+  filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  width: 95%;   
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+div.header ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+div.header li {
+    float: left;
+    margin-left: 0;
+
+}
+
+div.header li a {
+  margin-bottom: 5px;
+  border: 1px solid white;
+  border-radius: 5px;
+    display: inline-block;
+    color: white;
+    width: 80px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+div.header li a:hover {
+  border-radius: 5px;
+    background-color: #e6e6ff;
+    color: blue;
+}
+div.header li a.active
+{
+  border-radius: 5px;
+  background-color: #e6e6ff;
+  color: blue;
+}
+div#head
+{
+  color:  #e6e6ff;
+  text-transform: uppercase;
+  word-spacing: 10px;
+  float: left;
+  width: 600px;
+  margin: 0;
+  padding: -15px 1px;
+}
+div#navleft ul {
+  float: left;
+    list-style-type: none;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+     border-top: 5px solid black;
+    margin: 05px;
+    padding: 0;
+    width: 200px;
+    height: 100%;
+    background-color:#2d2d86;
+}
+
+div#navleft li a {
+    display: block;
+    border-top: 2px solid black; 
+    border-bottom: 2px solid white;
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+div#navleft li {
+    border-radius: 5px;
+}
+
+div#navleft li:last-child {
+    border-bottom: none;
+}
+div#navleft li a.active {
+  border-radius: 5px;
+    background-color:#e6e6ff ;
+    color: blue;
+}
+
+div#navleft li a:hover:not(.active) {
+    background-color:#e6e6ff;
+    border-radius: 5px;
+    color: blue;
+}
+div#navleft li h2
+{
+  background-color: black;
+  color: white;
+}
+div.transboblue#aaa h1
+{
+  background-color: white;
+}
+div#footer h3
+{
+  background-color: #2d2d86;
+  color: #cff;
+  padding:10px;
+  text-align: center; 
+}
+div#form
+{
+  float: right;
+}
+p
+{
+  font-family: sans-serif;;
+  font-size: 15px;
+  word-spacing:10px;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+#myDIV {
+    width: 195px;
+    height: 180px;
+    background: red;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {background:url(images/room1.jpg);background-repeat: no-repeat;}
+    to {background: url(images/room2.jpg);background-repeat: no-repeat;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    from {background: url(images/room1.jpg);background-repeat:no-repeat;}
+    to {background: url(images/room2.jpg);background-repeat: no-repeat;}
+}
+#myDIVI {
+    width: 195px;
+    height: 180px;
+    background: red;
+    -webkit-animation: mymovei 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymovei 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymovei {
+    from {background:url(images/room2.jpg);background-repeat: no-repeat;}
+    to {background: url(images/room1.jpg);background-repeat: no-repeat;}
+}
+
+/* Standard syntax */
+@keyframes mymovei {
+    from {background: url(images/room2.jpg);background-repeat:no-repeat;}
+    to {background: url(images/room1.jpg);background-repeat: no-repeat;}
+}
+input[type=text] {
+    margin-top: 10px;
+    width: 300px;
+    margin-right: 10px;
+      margin-left: 27px;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+input[type=email],input[type=date],input[type=number] {
+    margin-top: 10px;
+    width: 300px;
+    margin-right: 10px;
+      margin-left: 27px;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+select{
+ margin-top: 10px;
+    width: 300px;
+    margin-right: 10px;
+      margin-left: 27px;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;  
+}
+textarea {
+  margin-top: 10px;
+  margin-left: 27px;
+    width: 300px;
+    height: 150px;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    font-size: 16px;
+    resize: none;
+    padding: 12px 20px 12px 40px;
+}
+input[type=password] {
+  margin-top: 10px;
+    width: 300px;
+    margin-right: 10px;
+    margin-left: 27px;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+button
+{
+    margin-top: 10px;
+    width: 150px;
+    margin-right: 10px;
+    margin-left: 100px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid #cff;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #4040bf;
+    color: #cff;
+    padding: 12px 20px 12px 20px;
+}
+button:hover
+{
+  background-color: #cff;
+  color: #4040bf;
+}
+div.selector div#reg
+{
+ margin-left: 270px;
+  float: left;
+  width: 350px;
+  background-color: transparent;
+  height: 100%;
+
+}
+.koti{
+  width: 300px;
+  margin: auto;
+}
